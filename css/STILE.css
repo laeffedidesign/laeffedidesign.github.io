@@ -1,0 +1,59 @@
+body, html {
+    height: 100%; /* Imposta l'altezza al 100% */
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF
+}
+
+
+scrollable-bottom {
+    overflow-y: scroll;
+    height: calc(100vh - 160px); /* Altezza totale del viewport - altezza barra superiore e immagini */
+    padding-top: 20px; /* Aggiunge uno spazio sopra il contenuto scrollabile */
+}
+
+a {text-decoration: none; }
+
+@font-face{
+    font-family:"Kelsi";
+    src: url(FONTS/Kelsi-Regular.otf);
+}
+@font-face{
+    font-family:"Enhanced Dot Digital-7";
+    src: url(FONTS/enhanced_dot_digital-7.ttf);
+}
+@font-face{
+    font-family:"Spikle";
+    src: url(FONTS/Spikle.otf);
+}
+@font-face{
+    font-family:"baby blocks";
+    src: url(FONTS/babyblocks.ttf);
+}
+
+
+@font-face{
+    font-family:"Roboto-Bold";
+    src: url(FONTS/Roboto-Bold.ttf);
+}
+
+.custom-text-size {
+    font-family: "Roboto-Bold";
+    font-size: 11px; 
+    color: #F21201;
+    margin-top: 5px; 
+    margin-bottom: 5px;
+    margin-left: 0px;
+}
+
+@font-face{
+    font-family:"Roboto-Light";
+    src: url(FONTS/Roboto-Light.ttf);
+}
+.custom-text-size-LIGHT {
+    font-family: "Roboto-Light";
+    font-size: 11px; /* Specifica la dimensione del testo desiderata */
+    font-weighT: lighter;
+    color: #F21201
+}

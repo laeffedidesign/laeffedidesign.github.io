@@ -1,0 +1,16 @@
+body, html {
+    height: 100%; /* Imposta l'altezza al 100% */
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #F21201
+}
+
+
+scrollable-bottom {
+    overflow-y: scroll;
+    height: calc(100vh - 160px); /* Altezza totale del viewport - altezza barra superiore e immagini */
+    padding-top: 20px; /* Aggiunge uno spazio sopra il contenuto scrollabile */
+}
+
+a {text-decoration: none; }

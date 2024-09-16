@@ -1,0 +1,109 @@
+a {text-decoration: none; }
+
+#sez-1 {
+  height: 100px;
+  padding: 20px;
+  background-color: deepskyblue; 
+}
+
+#sez-2 {
+  height: 300px;
+  padding: 20px; 
+  background-color: greenyellow;
+}
+
+#sez-3 {
+  height: 200px;
+  padding: 20px; 
+  background-color: antiquewhite;
+}
+
+#sez-4 {
+  height: 200px;
+  padding: 20px; 
+  background-color: lightsteelblue;
+  overflow: auto;
+}
+
+#sez-5 {
+  height: 100px;
+  padding: 20px; 
+  background-color: yellowgreen;
+}
+
+
+
+#sez-6 {
+  height: 800px;
+  padding: none;
+  background-color: #ffffff;
+  border: none !important; /* Imposta il bordo a nessuno, !important per forzare l'override */
+  outline: none !important; /* Imposta l'outline a nessuno, !important per forzare l'override */
+  margin: 0; /* Imposta il margine a 0 */
+}
+
+#sez-8 {
+  height: 800px;
+  padding: 10px;
+  background-color: #ffffff;
+  border: none !important; /* Imposta il bordo a nessuno, !important per forzare l'override */
+  outline: none !important; /* Imposta l'outline a nessuno, !important per forzare l'override */
+  border-left: 1px solid #F21201!important; /* Bordo sinistro bianco */
+  margin: 0; /* Imposta il margine a 0 */
+}
+
+#sez-7 {
+  height: 390px;
+  padding: 20px; 
+  background-color: #ffffff;
+  border: none !important; /* Imposta il bordo a nessuno, !important per forzare l'override */
+  outline: none !important; /* Imposta l'outline a nessuno, !important per forzare l'override */
+  margin: 0; /* Imposta il margine a 0 */
+  overflow: auto;
+}
+
+#sez-9 {
+  height: 390px;
+  padding: 20px; 
+  background-color: #ffffff;
+  border: none !important; /* Imposta il bordo a nessuno, !important per forzare l'override */
+  outline: none !important; /* Imposta l'outline a nessuno, !important per forzare l'override */
+  border-bottom: 1px solid #F21201!important; /* Bordo sinistro bianco */
+  margin: 0; /* Imposta il margine a 0 */
+}
+
+#sezione-desc {
+  height: 90px;
+  padding: none; 
+  background-color: #ffffff;
+  border: none !important; /* Imposta il bordo a nessuno, !important per forzare l'override */
+  outline: none !important; /* Imposta l'outline a nessuno, !important per forzare l'override */
+  margin: 0; /* Imposta il margine a 0 */
+  overflow: auto; /* nel caso in cui il contenuto all'interno del div #sezione-desc supera l'altezza specificata di 90 pixel, verrà automaticamente aggiunta una barra di scorrimento verticale. */
+}
+#sezione-titolo {
+  height: 190px;
+  padding: none;
+  background-color: #ffffff;
+  border: none !important; /* Imposta il bordo a nessuno, !important per forzare l'override */
+  outline: none !important; /* Imposta l'outline a nessuno, !important per forzare l'override */
+  margin: 0; /* Imposta il margine a 0 */
+}
+
+.stonehenge > * {
+    box-sizing: border-box;
+    font-size: 3rem;
+    padding: 1px; 
+    margin: 0; 
+    background-color: #f2f2f2;
+}
+
+.stonehenge img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    max-height: 660px; /* Impostata l'altezza massima */
+    display: block;
+    margin: 0 auto;
+    border: none;
+}
