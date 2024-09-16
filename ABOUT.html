@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+    
+    
+    <title>LAEFFE ↳ About</title>
+
+    <link href="css/STILE.css" type="text/css" rel="stylesheet" />
+    <style>
+   @font-face{
+    font-family:"Kelsi";
+    src: url(FONTS/Kelsi-Regular.otf);
+    }
+    @font-face{
+    font-family:"Enhanced Dot Digital-7";
+    src: url(FONTS/enhanced_dot_digital-7.ttf);
+    }
+    @font-face{
+    font-family:"Spikle";
+    src: url(FONTS/Spikle.otf);
+    }
+    @font-face{
+    font-family:"baby blocks";
+    src: url(FONTS/babyblocks.ttf);
+    }
+
+
+    @font-face{
+    font-family:"Roboto-Bold";
+    src: url(FONTS/Roboto-Bold.ttf);
+    }
+
+    .custom-text-size {
+    font-family: "Roboto-Bold";
+    font-size: 11px; 
+    color: #F21201;
+    margin-top: 5px; 
+    margin-bottom: 5px;
+    margin-left: 0px;
+    }
+
+    @font-face{
+    font-family:"Roboto-Light";
+    src: url(FONTS/Roboto-Light.ttf);
+    }
+    .custom-text-size-LIGHT {
+    font-family: "Roboto-Light";
+    font-size: 11px; /* Specifica la dimensione del testo desiderata */
+    font-weighT: lighter;
+    color: #F21201
+    }
+        .barra-superioire {
+            position: fixed;
+            padding-top: 11px; /* Aggiunge uno spazio di 20px sopra al container */
+        }
+        
+        .image-container {
+            position: relative;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: center;
+            margin-top: 20px; /* Imposta il margine superiore per evitare sovrapposizioni con la barra superiore */
+            margin-bottom: 20px;
+        }
+
+        .image-container img {
+            position: absolute;
+            width: 10%; /* Imposta la larghezza delle immagini */
+            margin: 5px; /* Imposta il margine tra le immagini */
+            transition: transform 0.5s ease-in-out; /* Aggiunge un'animazione di transizione */
+        }
+        @media (max-width: 995px) {
+            .image-container img {
+                position: static;
+                width: 100%; /* Larghezza delle immagini su schermi più piccoli */
+                margin-top: 20px;
+                margin-bottom: 20px; /* Aggiunge spazio tra le immagini */
+            }
+        }
+        
+        hr.new1 {
+        border-top: 1px solid #F21201;
+        }
+        
+        .border-bottom {
+            border-color: #F21201 !important; /* !important per sovrascrivere Bootstrap */
+        }
+        
+        .custom-container {
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        @media (max-width: 992px) {
+            .table-responsive.fixed-bottom {
+                position: static;
+            }
+            
+
+            .spacer1 {
+                height: 405px;
+                width: 100%;
+                background-color: white;
+                position: relative;
+            }
+        }
+        
+        @media (max-width: 677px) {
+            .table-responsive.fixed-bottom {
+                position: static;
+            }
+            
+
+            .spacer1 {
+                height: 390px;
+                width: 100%;
+                background-color: white;
+                position: relative;
+            }
+        }
+        
+        @media (max-width: 547px) {
+            .table-responsive.fixed-bottom {
+                position: static;
+            }
+            
+
+            .spacer1 {
+                height: 375px;
+                width: 100%;
+                background-color: white;
+                position: relative;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="container-fluid fixed-top barra-superioire">
+    <div class="row">
+        <div class="col text-start">
+            <p class="fw-bold text-start"></p>
+        </div>
+        <div class="col">
+            <p id="changingText" class="custom-text-size text-center">LAEFFE</p>
+        </div>
+        <div class="col text-end">
+            <a href="GRID.html" class="custom-text-size-LIGHT text-end">HOME</a>
+        </div>
+    </div>
+</div>   
+
+<div class="spacer1"></div>     
+
+<div class="table-responsive fixed-bottom" style="margin-top: 40px;">
+<div class="container-fluid scrollable-bottom">
+    <div class="row">
+        <div class="col-lg-4 mb-3">
+            <div class="container-fluid border-bottom px-0">
+            <p class="custom-text-size">ABOUT</p>
+            </div>
+            <div class="container-fluid px-0">
+            <p class="custom-text-size">My name is Filippo Bragagia, I was born on December 2, 2001, and the world of design has had a great impact on my life. So much so that it has turned from a simple hobby to a real job. I am a meticulous, determined person who constantly strives to improve without ever putting limits on myself. I love working in teams, because I believe that only by collaborating and sharing ideas can one achieve success and improve as an individual.</p>
+            </div>
+        </div>
+
+        <div class="col-lg-4 mb-3">
+            <div class="container-fluid border-bottom px-0">
+            <p class="custom-text-size">FORMATION</p>
+            </div>
+            
+            <div class="container-fluid px-0">
+            <div class="row">
+                <div class="col">
+                    <p class="custom-text-size">Istituto Tecnico J. F. Kennedy</p>
+                </div>
+                <div class="col">
+                    <p class="custom-text-size">Information Technology Specialization</p>
+                </div>
+                <div class="col">
+                    <p class="custom-text-size">2015-20</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <p class="custom-text-size">Politecnico di Torino</p>
+                </div>
+                <div class="col">
+                    <p class="custom-text-size">Design and Comunication</p>
+                </div>
+                <div class="col">
+                    <p class="custom-text-size">2021-</p>
+                </div>
+            </div>
+            </div>
+            
+        </div>
+                
+        <div class="col-lg-4 mb-3">
+            <div class="container-fluid border-bottom px-0">
+            <p class="custom-text-size">EXPERIENCE</p>
+            </div>
+            <div class="container-fluid px-0">
+            <div class="row">
+                <div class="col">
+                    <p class="custom-text-size">Videe SPA <br /> Pianca SPA <br /> Freelancer</p>
+                </div>
+                <div class="col">
+                    <p class="custom-text-size">Video Editing <br /> Programming <br /> Graphic Design</p>
+                </div>
+                <div class="col">
+                    <p class="custom-text-size">2018 <br /> 2021 <br /> 2023-</p>
+                </div>
+                </div>   
+            </div>
+        </div>
+
+    </div>
+    </div>
+</div>
+    
+<script>
+    // Array di font da utilizzare
+    const fonts = ['Kelsi', 'Enhanced Dot Digital-7', 'Spikle', 'baby blocks', 'Roboto-Bold'];
+
+    // Indice iniziale del font nell'array
+    let currentFontIndex = 0;
+
+    // Funzione per cambiare il font
+    function changeFont() {
+        // Seleziona l'elemento di testo
+        const textElement = document.getElementById('changingText');
+        
+        // Cambia il font utilizzando l'indice corrente
+        textElement.style.fontFamily = fonts[currentFontIndex];
+
+        // Incrementa l'indice o riportalo a 0 se raggiunge la fine dell'array
+        currentFontIndex = (currentFontIndex + 1) % fonts.length;
+    }
+
+    // Esegui la funzione ogni 2 secondi (puoi personalizzare questo intervallo)
+    setInterval(changeFont, 1000);
+</script>
+    
+</body>
+</html>
