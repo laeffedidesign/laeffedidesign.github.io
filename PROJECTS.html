@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>LAEFFE ↳ Projects</title>
+
+    <link href="css/STILE-2.css" type="text/css" rel="stylesheet" />
+    <style>
+        @font-face{
+            font-family:"Kelsi";
+            src: url(FONTS/Kelsi-Regular.otf);
+        }
+        @font-face{
+            font-family:"Enhanced Dot Digital-7";
+            src: url(FONTS/enhanced_dot_digital-7.ttf);
+        }
+        @font-face{
+            font-family:"Spikle";
+            src: url(FONTS/Spikle.otf);
+        }
+        @font-face{
+            font-family:"baby blocks";
+            src: url(FONTS/babyblocks.ttf);
+        }
+
+        
+        @font-face{
+            font-family:"Roboto-Bold";
+            src: url(FONTS/Roboto-Bold.ttf);
+        }
+        
+        .custom-text-size {
+            font-family: "Roboto-Bold";
+            font-size: 11px; 
+            color: #FFFFFF;
+            margin-top: 5px; 
+            margin-bottom: 5px;
+            margin-left: 0px;
+        }
+        
+        @font-face{
+            font-family:"Roboto-Light";
+            src: url(FONTS/Roboto-Light.ttf);
+        }
+        .custom-text-size-LIGHT {
+            font-family: "Roboto-Light";
+            font-size: 11px; /* Specifica la dimensione del testo desiderata */
+            color: #FFFFFF
+        }
+        
+        .custom-text-size-LIGHT-transform {
+            font-family: "Roboto-Light";
+            font-size: 11px; /* Specifica la dimensione del testo desiderata */
+            color: #FFFFFF;
+            margin-top: 5px; /* Imposta il margine superiore per evitare sovrapposizioni con la barra superiore */
+            margin-bottom: 5px;
+        }
+
+        .barra-superioire {
+            position: fixed;
+            padding-top: 11px; /* Aggiunge uno spazio di 20px sopra al container */
+        }
+        
+        .image-container {
+            position: relative;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: center;
+            margin-top: 20px; /* Imposta il margine superiore per evitare sovrapposizioni con la barra superiore */
+            margin-bottom: 20px;
+        }
+
+        .image-container img {
+            position: absolute;
+            width: 10%; /* Imposta la larghezza delle immagini */
+            margin: 5px; /* Imposta il margine tra le immagini */
+            transition: transform 0.5s ease-in-out; /* Aggiunge un'animazione di transizione */
+        }
+        @media (max-width: 995px) {
+            .image-container img {
+                position: static;
+                width: 100%; /* Larghezza delle immagini su schermi più piccoli */
+                margin-top: 20px;
+                margin-bottom: 20px; /* Aggiunge spazio tra le immagini */
+            }
+        }
+        
+        hr.new1 {
+            border-top: 1px solid #ffffff;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="container-fluid fixed-top barra-superioire">
+    <div class="row">
+        <div class="col">
+            <p class="fw-bold text-start"></p>
+        </div>
+        <div class="col">
+            <p id="changingText" class="custom-text-size text-center">LAEFFE</p>
+        </div>
+        <div class="col text-end">
+            <a href="GRID.html" class="custom-text-size-LIGHT text-end no-weight-transform">HOME</a>
+        </div>
+    </div>
+</div>
+
+<div class="table-responsive fixed-bottom" style="margin-bottom: 20px;">
+<div class="container-fluid" style="margin-top: 50px;">
+
+<div class="container-fluid border-bottom border-top">
+  <div class="row">
+    <div class="col"><p class="custom-text-size text-start">TITLE</p></div>
+    <div class="col"><p class="custom-text-size text-start">CLIENT</p></div>
+    <div class="col"><p class="custom-text-size text-start">CASE</p></div>
+    <div class="col"><p class="custom-text-size text-end">YEAR</p></div>
+  </div>
+</div>
+    
+<div class="container-fluid border-bottom">
+<a href="TENSIONE.html" class="custom-text-size-LIGHT text-end">
+  <div class="row">
+    <div class="col"><p class="custom-text-size-LIGHT-transform text-start">Tensione</p></div>
+    <div class="col"><p class="custom-text-size-LIGHT-transform text-start">Personal Project</p></div>
+    <div class="col"><p class="custom-text-size-LIGHT-transform text-start">Furniture</p></div>
+    <div class="col"><p class="custom-text-size-LIGHT-transform text-end no-transform">2021</p></div>
+  </div>
+</a>
+</div> 
+    
+<div class="container-fluid border-bottom">
+<a href="RESTART.html" class="custom-text-size-LIGHT text-end">
+  <div class="row">
+    <div class="col"><p class="custom-text-size-LIGHT-transform text-start">Restart</p></div>
+    <div class="col"><p class="custom-text-size-LIGHT-transform text-start">University Project</p></div>
+    <div class="col"><p class="custom-text-size-LIGHT-transform text-start">Card Design</p></div>
+    <div class="col"><p class="custom-text-size-LIGHT-transform text-end no-transform">2022</p></div>
+  </div>
+</a>
+</div>
+    
+<div class="container-fluid border-bottom">
+<a href="BARLUME.html" class="custom-text-size-LIGHT text-end">
+  <div class="row">
+    <div class="col"><p class="custom-text-size-LIGHT-transform text-start">Barlume</p></div>
+    <div class="col"><p class="custom-text-size-LIGHT-transform text-start">University Project</p></div>
+    <div class="col"><p class="custom-text-size-LIGHT-transform text-start">Video Making</p></div>
+    <div class="col"><p class="custom-text-size-LIGHT-transform text-end no-transform">2022</p></div>
+  </div>
+</a>
+</div>
+
+<div class="container-fluid border-bottom">
+<a href="CONDIVIDIAMO LA CUCINA.html" class="custom-text-size-LIGHT text-end">
+  <div class="row">
+    <div class="col"><p class="custom-text-size-LIGHT-transform text-start">Condividiamo la cucina</p></div>
+    <div class="col"><p class="custom-text-size-LIGHT-transform text-start">Banco Alimentare Torino</p></div>
+    <div class="col"><p class="custom-text-size-LIGHT-transform text-start">Packaging</p></div>
+    <div class="col"><p class="custom-text-size-LIGHT-transform text-end no-transform">2023</p></div>
+  </div>
+</a>
+</div>    
+    
+<div class="container-fluid border-bottom">
+<a href="PRENDIAMO NOTA.html" class="custom-text-size-LIGHT text-end">
+  <div class="row">
+    <div class="col"><p class="custom-text-size-LIGHT-transform text-start">Prendiamo nota</p></div>
+    <div class="col"><p class="custom-text-size-LIGHT-transform text-start">Città di Torino</p></div>
+    <div class="col"><p class="custom-text-size-LIGHT-transform text-start">Advertising</p></div>
+    <div class="col"><p class="custom-text-size-LIGHT-transform text-end no-transform">2023</p></div>
+  </div>
+</a>
+</div>
+
+<div class="container-fluid border-bottom">
+<a href="PDSC_1.html" class="custom-text-size-LIGHT text-end">
+  <div class="row">
+    <div class="col"><p class="custom-text-size-LIGHT-transform text-start">Passi d'arte sul campo</p></div>
+    <div class="col"><p class="custom-text-size-LIGHT-transform text-start">University Project</p></div>
+    <div class="col"><p class="custom-text-size-LIGHT-transform text-start">Editorial</p></div>
+    <div class="col"><p class="custom-text-size-LIGHT-transform text-end no-transform">2023</p></div>
+  </div>
+</a>
+</div>
+    
+</div>
+</div>    
+  
+    
+<style>
+    .container-fluid .row:hover .custom-text-size-LIGHT-transform {
+        transform: translateX(20px); /* Sposta di 20px verso destra */
+        font-family: "Roboto-Bold";
+    }
+
+    .no-transform {
+        transform: none !important;
+    }
+</style>
+
+<script>
+    // Array di font da utilizzare
+    const fonts = ['Kelsi', 'Enhanced Dot Digital-7', 'Spikle', 'baby blocks', 'Roboto-Bold'];
+
+    // Indice iniziale del font nell'array
+    let currentFontIndex = 0;
+
+    // Funzione per cambiare il font
+    function changeFont() {
+        // Seleziona l'elemento di testo
+        const textElement = document.getElementById('changingText');
+        
+        // Cambia il font utilizzando l'indice corrente
+        textElement.style.fontFamily = fonts[currentFontIndex];
+
+        // Incrementa l'indice o riportalo a 0 se raggiunge la fine dell'array
+        currentFontIndex = (currentFontIndex + 1) % fonts.length;
+    }
+
+    // Esegui la funzione ogni 2 secondi 
+    setInterval(changeFont, 1000);
+</script>    
+    
+</body>
+</html>
